@@ -1,0 +1,13 @@
+[Unit]
+Description=feeds2webhook
+After=network.target
+
+[Service]
+Restart=always
+# Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
+EnvironmentFile=/etc/environment
+ExecStart=/usr/bin/node /root/feeds2webhook/index.js
+
+[Install]
+WantedBy=multi-user.target
+
