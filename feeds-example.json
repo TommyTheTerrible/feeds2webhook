@@ -1,0 +1,52 @@
+[
+    {
+        "url": "https://twitter.com/quotepage",
+        "username": "Inspirational Quotes",
+        "webhooks": [
+            "https://example.com/api/webhooks/importantID-01/reallylongsecrethash",
+            "https://example.com/api/webhooks/importantID-02/anotherreallylongsecrethash"
+        ]
+    },
+    {
+        "url": "https://twitter.com/MadamNazarIO",
+        "username": "Madam Nazar",
+        "webhooks": [
+            "https://example.com/api/webhooks/importantID-01/hopefullyyougetthepointbynow",
+            "https://example.com/api/webhooks/importantID-01/ifyourenotgettingitbynowaskforhelp"
+        ]
+    },
+    {
+        "url": "https://www.seraphimsl.com/feed/",
+            "username": "Seraphim",
+            "userimage": "https://www.seraphimsl.com/wp-content/uploads/2020/03/cropped-favicon-2-192x192.png",
+        "webhooks": [
+            "https://example.com/api/webhooks/importantID-01/snarkycommentnumberfive",
+            "https://example.com/api/webhooks/importantID-02/snarkeycommentnumbersix"
+        ]
+    },
+    {
+        "url": "https://secondlifesyndicate.com/rss/",
+        "username": "Second Life Syndicate",
+        "userimage": "https://secondlifesyndicate.com/wp-content/uploads/2019/04/cropped-SLS-LOGO-ALPHA-192x192.png",
+        "webhooks": [
+            "https://example.com/api/webhooks/importantID-01/snarkcommentnumberfive"
+        ]
+    },
+    {
+        "url": "https://community.secondlife.com/rss/1-blog-rss.xml",
+        "username": "Second Life Community",
+        "userimage": "https://content.invisioncic.com/Mseclife/monthly_2020_06/SL_logo_favicon_96x96.png",
+        "webhooks": [
+            "https://example.com/api/webhooks/importantID-01/snarkycommentnumberfive"
+        ]
+    },
+    {
+        "url": "https://status.secondlifegrid.net/history.rss",
+        "username": "Second Life Status",
+        "userimage": "https://pbs.twimg.com/profile_images/1265766959137734656/Ahc3Egxl_400x400.jpg",
+        "webhooks": [
+            "https://example.com/api/webhooks/importantID-01/snarkycommentnumberfive",
+            "https://example.com/api/webhooks/importantID-02/snarkycommentnumbersix"
+        ]
+    }
+]

@@ -7,11 +7,12 @@
     "start": "nodemon index.js --ignore 'feeds.json' --ignore 'hashes.json'"
   },
   "dependencies": {
-    "request": "2.88.2",
-    "rss-parser": "3.9.0",
-    "node-html-parser": "1.2.20",
     "md5": "2.3.0",
-    "node-fetch": "^2.6.1"
+    "needle": "^2.6.0",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "1.2.20",
+    "request": "2.88.2",
+    "rss-parser": "3.9.0"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
@@ -26,4 +27,3 @@
   "repository": {},
   "license": "GNU General Public License v3.0"
 }
-
